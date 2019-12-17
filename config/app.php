@@ -164,6 +164,8 @@ return [
         willvincent\Feeds\FeedsServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+        Arcanedev\LaravelMessenger\LaravelMessengerServiceProvider::class,
+        Aschmelyun\Larametrics\LarametricsServiceProvider::class,
 
         /*
          * Package Service Providers...
