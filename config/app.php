@@ -166,6 +166,8 @@ return [
         Barryvdh\Debugbar\ServiceProvider::class,
         Arcanedev\LaravelMessenger\LaravelMessengerServiceProvider::class,
         Aschmelyun\Larametrics\LarametricsServiceProvider::class,
+        Dawson\TVDB\TVDBServiceProvider::class,
+        Musonza\Groups\GroupsServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -232,6 +234,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Feeds'    => willvincent\Feeds\Facades\FeedsFacade::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'TVDB' => Dawson\TVDB\TVDBFacade::class,
+        'Groups' => Musonza\Groups\Facades\GroupsFacade::class,
 
     ],
 
